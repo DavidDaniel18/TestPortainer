@@ -7,6 +7,7 @@ services:
       context: .
       dockerfile: Test/Dockerfile
     ports:
-      - "80"
-      - "443"    
+      - "80:32804"
+      - "443:32805"    
+
 
