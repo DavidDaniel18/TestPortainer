@@ -4,7 +4,7 @@ services:
   test:
     image: ${DOCKER_REGISTRY-}test
     build:
-      context: ./Test/
+      context: Test/
       dockerfile: Test/Dockerfile
     ports:
       - "49159:80"
