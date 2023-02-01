@@ -4,10 +4,7 @@ services:
   test:
     image: ${DOCKER_REGISTRY-}test
     build:
-      context: .
+      context: ./Test/
       dockerfile: Test/Dockerfile
     ports:
-      - "80"
-      - "443"    
-
-
+      - "49159:80"
