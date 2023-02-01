@@ -3,7 +3,7 @@ version: '3.4'
 services:
   test:
     image: test:dev
-    container_name: Test_1
+    container_name: Test
     build:
       target: base
       labels:
