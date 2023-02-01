@@ -19,11 +19,9 @@ services:
       protocol: tcp
     - mode: ingress
       target: 32790
-      published: "80"
       protocol: tcp
     - mode: ingress
       target: 32791
-      published: "443"
       protocol: tcp
     volumes:
     - type: bind
