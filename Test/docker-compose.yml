@@ -8,7 +8,8 @@ services:
       dockerfile: Test/Dockerfile
     ports:
       - "80"
+      - published: "32793"
       - "443"
-      - "32790"
-      - "32791"
+      - published: "32795"
+    
 
