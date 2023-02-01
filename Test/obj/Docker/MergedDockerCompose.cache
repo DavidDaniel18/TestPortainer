@@ -11,8 +11,6 @@ services:
     networks:
       default: null
     ports:
-    - published: "32793"
-    - published: "32795"
     - mode: ingress
       target: 80
       protocol: tcp
