@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  test:
+    image: ${DOCKER_REGISTRY-}test
+    build:
+      context: .
+      dockerfile: Test/Dockerfile
+    expose:
+        - '80:80'
+
